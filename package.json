@@ -1,0 +1,46 @@
+{
+	"name": "tsget-from-json-schema",
+	"version": "1.0.1",
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"description": "Straightforward project scaffolding",
+	"main": "dist/index.js",
+	"bin": {
+		"tsget-from-json-schema": "tsget-from-json-schema"
+	},
+	"scripts": {
+		"lint": "eslint --color --ignore-path .gitignore .",
+		"dev": "npm run build -- --watch",
+		"build": "rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/obando777/tsget-from-json-schema.git"
+	},
+	"author": "Miguel Obando",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/obando777/tsget-from-json-schema/issues"
+	},
+	"homepage": "https://github.com/obando777/tsget-from-json-schema#readme",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "18.0.0",
+		"@rollup/plugin-node-resolve": "11.2.1",
+		"eslint": "7.23.0",
+		"eslint-config-prettier": "8.1.0",
+		"eslint-plugin-import": "2.22.1",
+		"prettier": "2.2.1",
+		"rollup": "2.44.0",
+		"rollup-plugin-commonjs": "10.1.0"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"json-schema-to-typescript": "11.0.2",
+		"jszip": "3.10.1",
+		"minimist": "1.2.6",
+		"node-fetch": "2.6.7"
+	}
+}
