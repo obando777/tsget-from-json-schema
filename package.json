@@ -1,6 +1,6 @@
 {
 	"name": "tsget-from-json-schema",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"engines": {
 		"node": ">=8.0.0"
 	},
